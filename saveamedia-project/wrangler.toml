@@ -1,0 +1,13 @@
+name = "saveamedia-downloader"
+main = ".open-next/worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[site]
+bucket = ".open-next/assets"
+
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://saveamedia.com"
+NEXT_PUBLIC_API_BASE_URL = "https://saveamedia-backend.onrender.com"
+BACKEND_GATEWAY_URL = "https://saveamedia-backend.onrender.com"
+NEXT_PUBLIC_ENABLE_MOCK_CONTROLS = "false"

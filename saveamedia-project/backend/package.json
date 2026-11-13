@@ -1,0 +1,26 @@
+{
+  "name": "saveamedia-backend",
+  "version": "1.0.0",
+  "description": "High-performance Instagram Reel extraction backend gateway for SaveAMedia",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "instagram",
+    "downloader",
+    "reels",
+    "extractor",
+    "api"
+  ],
+  "author": "SaveAMedia Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cakkatrok-instagram-downloader": "^2.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
